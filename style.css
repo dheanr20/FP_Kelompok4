@@ -1,0 +1,58 @@
+
+/*ini adalah style jumbotron*/
+.jumbotron {
+	background-image: url(img/gunung.jpg);
+	background-size: cover;
+	height: 700px;
+	text-align: center;
+	margin-top: -120px;
+}
+.jumbotron .display-4 {
+	color: white;
+	margin-top: 150px;
+}
+.jumbotron p {
+    font: 20px;
+}
+.jumbotron hr {
+	border-color: #F05F40;
+	width: 70px;
+	border-width: 3px;
+}
+
+/*ini adalah .style.Slider*/
+.carousel-item{
+	height: 670px;
+}
+.carousel-item img{
+	margin-top: -90px
+}
+.carousel-item .display-4 {
+	margin-top: -470px
+}
+.col-4 {
+	width:30%;
+	box-sizing: border-box;
+	padding:5px;
+	float: left;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-right: 30px;
+}
+.col-4 img {
+	width:100%;
+}
+.col-4 a:hover img {
+	transform: scale(1.2);
+}
+@media (max-width: 768px){
+	.mobile-menu {
+		display: block;
+	}
+	header ul {
+		display: none;
+	}
+	.col-4 {
+		width: 50%;
+	}
+}
